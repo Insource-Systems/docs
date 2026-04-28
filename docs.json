@@ -21,6 +21,12 @@
             "pages": [
               "scheduling/intro"
             ]
+          },
+          {
+            "group": "My Schedule",
+            "pages": [
+              "scheduling/my-calendar"
+            ]
           }
         ]
       }
