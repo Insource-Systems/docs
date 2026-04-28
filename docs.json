@@ -70,6 +70,20 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Home"
+      },
+      {
+        "tab": "Scheduling",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "intro"
+            ]
+          }
+        ]
       }
     ],
     "global": {
