@@ -66,5 +66,8 @@
   },
   "fonts": {
     "family": "Red Hat Text"
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
