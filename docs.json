@@ -80,7 +80,7 @@
           {
             "group": "Welcome",
             "pages": [
-              "intro"
+              "scheduling/intro"
             ]
           }
         ]
