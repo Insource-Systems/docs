@@ -139,5 +139,8 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "fonts": {
+    "family": "Red Hat Text"
   }
 }
