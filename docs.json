@@ -23,6 +23,12 @@
             ]
           },
           {
+            "group": "Daily Roster",
+            "pages": [
+              "scheduling/roster/viewing-the-roster"
+            ]
+          },
+          {
             "group": "Calendar",
             "pages": [
               "scheduling/calendar/personal",
