@@ -25,7 +25,8 @@
           {
             "group": "Calendar",
             "pages": [
-              "scheduling/calendar/personal"
+              "scheduling/calendar/personal",
+              "scheduling/calendar/manager"
             ]
           }
         ]
