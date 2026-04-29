@@ -23,9 +23,9 @@
             ]
           },
           {
-            "group": "My Schedule",
+            "group": "Calendar",
             "pages": [
-              "scheduling/my-calendar"
+              "scheduling/calendar/personal"
             ]
           }
         ]
