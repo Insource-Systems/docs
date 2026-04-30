@@ -33,3 +33,39 @@ The organizational structure is configured by your organization. The tree below 
     </Tree.Folder>
   </Tree.Folder>
 </Tree>
+
+### Units
+
+Units are typically represent apparatus such as an Engine, Truck, Rescue Squad, Ambulance, or for Police, beat cars. They may also represent offices such as Headquarters, Training Academy, etc. for administrative employees who may not be in the field.
+
+### Positions
+
+Positions are within units and can be filled by events or pre-determined assignments. Positions are configured by your organization and may look different depending on the policies that are set.
+
+Vacancies are displayed on the roster when a shift that is assigned to the position is working. For example, if a position is assigned "A Shift" and "B Shift", a vacancy will display on the roster when "A Shift" or "B Shift" is working. The organization can configure when positions are required to be filled. If there is a vacancy in a required position, it will display in red and cause an alert. If a vacancy is not required to be filled (such as overage positions or unstaffed seats on an apparatus), it will display in white as shown below.
+
+<Frame>
+  ![Unit With Partial Positions](/images/UnitWithPartialPositions.png)
+</Frame>
+
+The dynamic system allows for multiple events to fill one position. This means, for example, a 24-hour vacancy can be filled by Person 1 working 0700-1900, and Person 2 working 1900-0700, or any combination of people and time periods. Different event types can be used as well. For instance, if someone works additional hours in their position, their shift can be split between straight pay and overtime pay event types.
+
+<Frame>
+  ![Position Filled Split](/images/PositionFilledSplit.png)
+</Frame>
+
+### Non-Working Events
+
+Non-working events, such as vacation leave, may display on your roster if configured by your organization. These events will not fill vacancies on the roster, and will _create_ a vacancy if a person uses leave in an assignment that requires backfill.
+
+### Qualifications
+
+Positions on the roster may require certain qualifications to be filled as configured by your organization. These qualifications are identified by their abbreviation next to the position name.
+
+A person's qualifications will display next to their name on the roster if configured by your organization. A user may have qualifications that are not listed next to their name if your organization has configured certain qualifications to not display. These hidden qualifications will still fulfill position requirements. A person's full list of qualifications can be found by viewing their profile.
+
+If a position is filled by a user who does not meet the rank and/or qualifications configured for that position, a warning icon will be displayed next to the event. There are times where a position may need to be filled by a person who does not meet the configured rank or qualification requirements. For this reason, the system still allows a _Not Qualified_ warning to fill a vacancy.
+
+<Frame>
+  ![Position Not Qualified Warning](/images/PositionNotQualifiedWarning.png)
+</Frame>
